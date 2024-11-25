@@ -6,6 +6,9 @@
 </head>
 <body>
 <main>
+{% if user.is_authenticated %}
+    <li><a href="{% url 'article_list' %}">See Articles</a></li>
+{% endif %}
 {% block content %}
 {% endblock content %}
 </main>

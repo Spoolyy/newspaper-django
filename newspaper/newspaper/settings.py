@@ -43,7 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',
     'pages',
+    'articles',
 ]
+
+TIME_ZONE = 'Europe/Rome'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
